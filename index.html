@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="1.css">
+  </head>
+  <body background="27.jpg">
+    <div class="img">
+    <img src="28.jfif">
+    </div>
+    <div class="first">
+    <form method="post" action="2.html">
+      please choose which type of pizza do you want:  <br>
+      <input type="checkbox" id="aa" value="270"> margarita <br>
+      <input type="checkbox" id="ab" value="280"> pepperoni <br>
+      <input type="checkbox" id="ac" value="290"> paneer <br>
+      what type of topping would you like? <br>
+      <input type="checkbox" id="b" value="60"> extra cheese <br>
+      <input type="checkbox" id="c" value="70"> double cheese <br>
+      <input type="checkbox" id="n" value="80"> extra paneer <br>
+      add something else as well: <br>
+      <input type="checkbox" id="e" value="50"> garlic bread <br>
+      <input type="checkbox" id="f" value="80"> pepsi <br>
+      <input type="checkbox" id="g" value="120"> pasta <br>
+    </form>
+      <button type="submit" onclick="d()" id="save"> submit</button>
+      <div class="inv">
+        <a href="2.html">continue</a>
+      </div>
+<script type="text/javascript">
+ var zaa = 0,zab = 0,zac = 0,zb = 0,zc = 0,zd = 0,ze = 0,zf = 0,zg = 0;
+  function k()
+  {
+  var total = zaa+zab+zac+zb+zc+zd+ze+zf+zg;
+  window.alert("your total is ₹"+total+", are you sure you want to continue?")
+window.location.href="2.html";
+}
+function  d()
+{
+  window.alert("processing");
+if (aa.checked == true)
+ {
+zaa = parseInt(aa.value);
+ }
+if (ab.checked == true)
+{
+zab = parseInt(ab.value);
+}
+if (ac.checked == true)
+{
+zac = parseInt(ac.value);
+}
+ if (b.checked === true)
+ {
+   zb = parseInt(b.value);
+ }
+ if (c.checked === true)
+ {
+   zc = parseInt(c.value);
+ }
+ if (n.checked === true)
+ {
+   zd = parseInt(n.value);
+ }
+ if (e.checked === true)
+ {
+   ze = parseInt(e.value);
+ }
+ if (f.checked === true)
+ {
+   zf = parseInt(f.value);
+ }
+ if (g.checked === true)
+ {
+   zg = parseInt(g.value);
+ }
+  k();
+}
+</script>
+  </div>
+  </body>
+</html>

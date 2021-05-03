@@ -1,0 +1,91 @@
+:root {
+    --my-variable-name: none;
+    --my-variable-name-2: 12;
+}
+.first{
+ background: white;
+  text-align: left;
+  position: absolute;
+  left: 100px;
+  right: 100px;
+  font-size: 40px;
+  padding: 100px;
+  padding-right: 500px;
+ }
+.img
+{
+  position: relative;
+  padding-left: 800px;
+}
+.inv
+{
+  display: var(--my-variable-name);
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+.first img {
+  width: 100%;
+  height: auto;
+}
+.first .btn {
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.first .btn:hover {
+  background-color: black;
+}
+
+.first .btn2 {
+  position: absolute;
+  top: 83%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.first .btn3 {
+  position: absolute;
+  top: 47%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.video
+{
+  position: relative;
+  top:auto;
+  left:10%;
+}
+.btn4
+{
+  position: absolute;
+  left: 46%;
+  right:auto;
+  font-size: 25px;
+}

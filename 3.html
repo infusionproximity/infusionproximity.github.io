@@ -1,0 +1,35 @@
+<html lang="en" dir="ltr">
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="1.css">
+  </head>
+  <body background="27.jpg">
+    <div class="first">
+      <video width="1200" height="800" autoplay="autoplay" class="video" id="an">
+  <source src="1.mp4" type="video/mp4" />
+</video>
+<button onclick="m()" class="btn4">pay</button>
+</div>
+<script type="text/javascript">
+var a = window.prompt("do you want to place the order?");
+if (a.match(/n.*/))
+{
+  window.location.href="index.html";
+}
+function m()
+{
+window.alert("you have paid");
+var a = window.prompt("wanna buy again?");
+if (a.match(/y.*/)){
+window.location.href="2.html";
+}
+else{
+  window.alert("see you soon!");
+}
+}
+</script>
+  </div>
+  </body>
+</html>
